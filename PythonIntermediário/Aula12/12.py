@@ -19,5 +19,5 @@ l3 = list(range(100))
 ex6 = [v for v in l3 if v % 2 == 0 if v % 8 == 0]
 
 ex7 = [v if v % 3 == 0 or v % 8 == 0 else '' for v in l3]
-print(ex3)
+print(ex1)
 
