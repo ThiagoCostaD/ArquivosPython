@@ -2,13 +2,10 @@
 Conta(ABC)
     ContaCorrente
     ContaPoupanca
-    
-Pessoa(ABC)    
+Pessoa(ABC)
     Cliente
         Cliente -> Conta
-        
 Banco
     Banco -> Cliente
     Banco -> Conta
-
 """
